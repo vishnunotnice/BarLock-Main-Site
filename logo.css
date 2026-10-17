@@ -1,0 +1,14 @@
+.brand {
+  background: url("https://github.com/vishnunotnice/Portfolio/blob/main/Barlock%20new%20logo%20black%20bg.png?raw=true") center / contain no-repeat;
+  display: block;
+  height: 44px;
+  width: 166px;
+  font-size: 0 !important;
+  letter-spacing: 0 !important;
+}
+
+.brand b { display: none; }
+
+@media (max-width: 700px) {
+  .brand { height: 36px; width: 136px; }
+}
